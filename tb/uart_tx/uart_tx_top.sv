@@ -22,6 +22,7 @@ module uart_tx_top;
     initial begin
         clk =0;
         forever begin
+            //#(PERIOD/2.0);  clk = ~clk;   
             #(PERIOD/2);  clk = ~clk;    
         end
     end
