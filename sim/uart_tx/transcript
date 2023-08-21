@@ -1,0 +1,87 @@
+# //  Questa Sim
+# //  Version 10.0b win32 May  5 2011
+# //
+# //  Copyright 1991-2011 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  THIS WORK CONTAINS TRADE SECRET AND PROPRIETARY INFORMATION
+# //  WHICH IS THE PROPERTY OF MENTOR GRAPHICS CORPORATION OR ITS
+# //  LICENSORS AND IS SUBJECT TO LICENSE TERMS.
+# //
+# do run.do 
+# QuestaSim vlog 10.0b Compiler 2011.05 May  5 2011
+# -- Compiling module mux
+# -- Compiling module parity_calc
+# -- Compiling module serializer
+# -- Compiling module tx_fsm
+# -- Compiling module uart_tx
+# 
+# Top level modules:
+# 	uart_tx
+# QuestaSim vlog 10.0b Compiler 2011.05 May  5 2011
+# -- Compiling package param_pkg
+# -- Compiling package uart_pkg
+# -- Importing package mtiUvm.uvm_pkg (uvm-1.0p1 Built-in)
+# -- Importing package param_pkg
+# ** Note: (vlog-2286) Using implicit +incdir+D:/questasim_10.0b/uvm-1.0p1/../verilog_src/uvm-1.0p1/src from import uvm_pkg
+# ** Warning: E:/UVM/UART/tb/uart_tx/uart_tx_seq//uart_tx_base_sequence.svh(1): (vlog-2181) Use of a parameterized class uvm_sequence as a type creates a default specialization.
+# -- Compiling interface uart_tx_intf
+# -- Compiling package uart_tx_top_sv_unit
+# -- Importing package mtiUvm.uvm_pkg (uvm-1.0p1 Built-in)
+# -- Importing package param_pkg
+# -- Importing package uart_pkg
+# ** Warning: E:/UVM/UART/tb/uart_tx/uart_tx_seq//uart_tx_base_sequence.svh(1): (vlog-2181) Use of a parameterized class uvm_sequence as a type creates a default specialization.
+# -- Compiling module uart_tx_top
+# 
+# Top level modules:
+# 	uart_tx_top
+# QuestaSim vopt 10.0b Compiler 2011.05 May  5 2011
+# 
+# Top level modules:
+# 	uart_tx_top
+# 
+# Analyzing design...
+# -- Loading module uart_tx_top
+# -- Loading interface uart_tx_intf
+# -- Loading module uart_tx
+# -- Loading module parity_calc
+# -- Loading module serializer
+# -- Loading module tx_fsm
+# -- Loading module mux
+# Optimizing 11 design-units (inlining 0 instances):
+# -- Processing module uart_tx_intf(fast) for debug
+# -- Processing module parity_calc(fast) for debug
+# -- Processing module serializer(fast) for debug
+# ** Note: (vopt-143) Recognized 1 FSM in module "tx_fsm".
+# -- Processing module tx_fsm(fast) for debug
+# -- Processing module mux(fast) for debug
+# -- Processing module uart_tx(fast) for debug
+# -- Processing module uart_tx_top(fast) for debug
+# Optimized design name is top_opt_dbg
+# QuestaSim vopt 10.0b Compiler 2011.05 May  5 2011
+# 
+# Top level modules:
+# 	uart_tx_top
+# 
+# Analyzing design...
+# -- Loading module uart_tx_top
+# -- Loading interface uart_tx_intf
+# -- Loading module uart_tx
+# -- Loading module parity_calc
+# -- Loading module serializer
+# -- Loading module tx_fsm
+# -- Loading module mux
+# Optimizing 11 design-units (inlining 0 instances):
+# -- Optimizing package param_pkg(fast)
+# -- Optimizing package mtiUvm.uvm_pkg (uvm-1.0p1 Built-in)(fast)
+# -- Optimizing package uart_pkg(fast)
+# -- Optimizing package uart_tx_top_sv_unit(fast)
+# -- Optimizing interface uart_tx_intf(fast)
+# -- Optimizing module parity_calc(fast)
+# -- Optimizing module serializer(fast)
+# -- Optimizing module tx_fsm(fast)
+# ** Note: (vopt-143) Recognized 1 FSM in module "tx_fsm".
+# -- Optimizing module mux(fast)
+# -- Optimizing module uart_tx(fast)
+# -- Optimizing module uart_tx_top(fast)
+# Optimized design name is top_opt
